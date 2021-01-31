@@ -1,3 +1,6 @@
+"""
+Expanded set of DataFrame functions.
+"""
 import tarfile
 import tempfile
 import urllib.request
