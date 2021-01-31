@@ -1,0 +1,7 @@
+qtconsole
+PyQt5
+requests
+pandas
+matplotlib
+tensorflow
+scikit-learn
