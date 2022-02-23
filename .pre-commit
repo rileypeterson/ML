@@ -2,7 +2,10 @@
 # This hook runs the nbconvert command on notes.ipynb or exercises.ipynb files
 # in order to auto generate the markdown output in my projects directory.
 # TODO: Just auto generate markdown copies within this repo and point
-# personal website at them.
+# personal website at them. I was going to do something like this with:
+# https://github.com/netrics/jekyll-remote-include/blob/a230e824783d5c6783235d5a05bff17d6bb11324/lib/jekyll-remote-include.rb
+# But I don't know how battle tested or safe that really is...
+# So I'm deciding against it
 files=$(git diff --cached --name-status)
 re=".*chapter?.\/((notes.ipynb|exercises.ipynb))"
 proj_dir="/Path/to/your/project_dir"
