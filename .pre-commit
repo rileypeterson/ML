@@ -10,11 +10,11 @@ for file in $files; do
   if [[ $file =~ $re ]]; then
     echo $file
     output_file="${file%.*}.md"
-    echo "Running... jupyter nbconvert --to markdown $file --output $output_file"
-    if jupyter nbconvert --to markdown $file --output $output_file; then
-      echo "Success: jupyter nbconvert --to markdown $file --output $output_file"
+    echo "Running... jupyter nbconvert --to markdown $file --output $proj_dir/$output_file"
+    if jupyter nbconvert --to markdown $file --output $proj_dir/$output_file; then
+      echo "Success: jupyter nbconvert --to markdown $file --output $proj_dir/$output_file"
     else
-      echo "Failed: jupyter nbconvert --to markdown $file --output $output_file"
+      echo "Failed: jupyter nbconvert --to markdown $file --output $proj_dir/$output_file"
       exit 1
     fi
   fi
