@@ -11,3 +11,7 @@ https://stackoverflow.com/a/50194143/8927098
 From root folder:
 
 `pip install -e .` 
+
+### Jupyter Black
+I use this package for formatting cells:
+* https://github.com/drillan/jupyter-black
