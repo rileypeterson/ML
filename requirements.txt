@@ -7,3 +7,5 @@ tensorflow
 scikit-learn
 tabulate
 sklearn-pandas
+urlextract
+nltk
