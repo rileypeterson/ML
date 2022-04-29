@@ -7,5 +7,3 @@ https://qtconsole.readthedocs.io/en/stable/installation.html#install-using-pip
 ### Jupyter Black
 I use this package for formatting cells:
 * https://github.com/drillan/jupyter-black
-
-test
