@@ -1,6 +1,6 @@
 base_dir="/Users/riley/PycharmProjects/rileypeterson.github.io"
-chapter="chapter2"
-file="notes"
+chapter="chapter4"
+file="exercises"
 jupyter nbconvert --NbConvertApp.output_files_dir="$base_dir/assets/images/ml-book/$chapter" --to markdown $chapter/$file.ipynb
 mv $chapter/$file.md $base_dir/_projects/ml-book/$chapter/$file.md
 # Replace absolute paths to images with relative ones
