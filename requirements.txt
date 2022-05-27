@@ -9,3 +9,4 @@ tabulate
 sklearn-pandas
 urlextract
 nltk
+jupyter
