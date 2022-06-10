@@ -10,3 +10,4 @@ sklearn-pandas
 urlextract
 nltk
 jupyter
+black
